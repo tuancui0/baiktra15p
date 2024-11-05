@@ -47,7 +47,9 @@ EditText weight;
 
                     result.setText(String.format("BMI: %.2f", ketqua));
                 } catch (NumberFormatException e) {
-                    result.setText("Vui long nhap dung can nang va chieu cao");
+                    result.setText("Vui long nhap dung can nang va abcbs");
+                    result.setText("Vui long nhap dung can nang va abcbs");
+
                 }
             }
         });
